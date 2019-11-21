@@ -25,7 +25,8 @@ public class Menu {
 
         while (!salir) {
 
-            System.out.println("\n\n\n1. Parsear Corpus");
+            System.out.println("\n\nRuta Corpus: " + rutaCorpus);
+            System.out.println("1. Parsear Corpus");
             System.out.println("2. Indexar Corpus");
             System.out.println("3. Consultas");
             System.out.println("4. Salir");
