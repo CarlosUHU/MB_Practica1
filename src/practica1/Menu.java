@@ -21,7 +21,7 @@ public class Menu {
     public void menu_principal(String rutaCorpus) throws IOException, SolrServerException, ParserConfigurationException, SAXException {
         Scanner sn = new Scanner(System.in);
         boolean salir = false;
-        int opcion; //Guardaremos la opcion del usuario
+        int opcion;
 
         while (!salir) {
 
